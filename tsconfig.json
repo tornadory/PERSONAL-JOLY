@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "sourceMap": false,
+        "outDir": "Build"
+    },
+    "types": [
+        "babylonjs"
+    ],
+    "include": [
+        "Src/**/*"
+    ]
+}
