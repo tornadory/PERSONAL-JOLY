@@ -1,14 +1,11 @@
-module JOLY
-{
-    export class Environment
-    {
-        constructor()
-        {
-            
+/// <reference path="Engine.ts" /> 
 
-        }
+export class Environment
+{
+    constructor()
+    {
+        
 
     }
-
 
 }

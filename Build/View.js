@@ -1,13 +1,10 @@
-var JOLY;
-(function (JOLY) {
-    class Neki {
-        constructor() {
-        }
-        hello() {
-            console.log("method dela");
-            //JOLY.Interface.hello();
-            console.log(JOLY);
-        }
+"use strict";
+/// <reference path="Engine.ts" /> 
+Object.defineProperty(exports, "__esModule", { value: true });
+class Neki {
+    constructor() {
     }
-    JOLY.Neki = Neki;
-})(JOLY || (JOLY = {}));
+    hello() {
+    }
+}
+exports.Neki = Neki;

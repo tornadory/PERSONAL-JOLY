@@ -1,14 +1,8 @@
-var JOLY;
-(function (JOLY) {
-    class Environment {
-        constructor() {
-        }
-        hello() {
-        }
+"use strict";
+/// <reference path="Engine.ts" /> 
+Object.defineProperty(exports, "__esModule", { value: true });
+class Environment {
+    constructor() {
     }
-    JOLY.Environment = Environment;
-    function hello() {
-        console.log("hello");
-    }
-    JOLY.hello = hello;
-})(JOLY || (JOLY = {}));
+}
+exports.Environment = Environment;
