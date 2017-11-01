@@ -1,6 +1,6 @@
 /// <reference path="Engine.ts" /> 
 
-export class Environment
+export class Environment 
 {
     constructor()
     {

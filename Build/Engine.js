@@ -22,15 +22,22 @@ var IGNITION;
     class Engine {
         constructor() {
             this._initialized = false;
+            this.Window = window;
             this.Canvas = document.getElementById('renderCanvas');
         }
         // event handler that handles window resize
         _setResizeEvent() {
             let engine = this.BabylonEngine;
+            let canvas = this.Canvas;
             window.addEventListener('resize', function () {
+                // resize canvas on window resize
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
+                // resize engine on window resize
                 engine.resize();
             });
         }
+        // intialize object
         Initialize() {
             this._initialized = true;
             this.BabylonEngine = new BABYLON.Engine(this.Canvas, true);
@@ -69,6 +76,7 @@ var IGNITION;
             if (this._initialized === false) {
                 throw new Error("Engine not initialized. Call Initialize() function before running engine.");
             }
+            // runs the babylon engine render thread
             this._runBabylonRenderLoop();
         }
     }

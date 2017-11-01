@@ -1,0 +1,57 @@
+-------------- Resolution and Aspect ratio
+720x480-----3:2
+1152x768-----3:2
+1280x854-----3:2
+1440x960-----3:2
+2880x1920----3:2
+___________________
+
+320x240-----4:3
+640x480-----4:3
+800x600-----4:3
+1024x768-----4:3
+1152x864-----4:3
+1280x960-----4:3
+1400x1050-----4:3
+1600x1200-----4:3
+2048x1536-----4:3
+3200x2400-----4:3
+4000x3000-----4:3
+6400x4800-----4:3
+___________________
+
+800x480-----5:3
+1280x768-----5:3
+___________________
+
+1280x1024-----5:4
+2560x2048-----5:4
+5120x4096-----5:4
+___________________
+
+852x480-----16:9
+1280x720-----16:9
+1365x768-----16:9
+1600x900-----16:9
+1920x1080-----16:9
+___________________
+
+320x200-----16:10
+640x400-----16:10
+1280x800-----16:10
+1440x900-----16:10
+1680x1050-----16:10
+1920x1200-----16:10
+2560x1600-----16:10
+3840x2400-----16:10
+7680x4800-----16:10
+
+
+
+------------------- HD explanations:
+720p = 1280 x 720 - is usually known as HD or “HD Ready” resolution
+1080p = 1920 x 1080 - is usually known as FHD or “Full HD” resolution
+1440p = 2560 x 1440 - commonly known as QHD or Quad HD resolution, and typically seen on gaming monitors and on high-end smartphones. 1440p is four times the resolution of 720p HD or “HD ready”.
+2160p = 3840 x 2160 - commonly known as 4K, UHD or Ultra HD resolution. It’s a very large display resolution and it’s found on high-end TVs and monitors. 2160p is called 4K because it offers four times the resolution of 1080p FHD or “Full HD”.
+4320p = 7680 x 4320 - is known as 8K and it offers 16 times more pixels than the regular 1080p FHD or “Full HD” resolution. Although you’re not going to see TVs or computer monitors with this resolution too soon, you can test whether your computer can render such a large amount of data. Here’s an 8K video sample:
+ 

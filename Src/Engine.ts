@@ -43,11 +43,14 @@ module IGNITION
         public LightsManager: JOLY.LightsManager; 
         // mesh manager holds references to all objects in the scene
         public MeshManager: JOLY.MeshManager;
+        // main browser window
+        public Window: Window;
 
 
         constructor()
         {
             this._initialized = false;
+            this.Window = window;
             this.Canvas = document.getElementById('renderCanvas') as HTMLCanvasElement;
         }
 
@@ -56,12 +59,20 @@ module IGNITION
         private _setResizeEvent(): void
         {
             let engine = this.BabylonEngine;
+            let canvas = this.Canvas;
 
             window.addEventListener('resize', function() {
+                // resize canvas on window resize
+                canvas.width  = window.innerWidth;
+                canvas.height = window.innerHeight;
+
+                // resize engine on window resize
                 engine.resize();
             });
         }
 
+
+        // intialize object
         public Initialize(): void
         {
             this._initialized = true;

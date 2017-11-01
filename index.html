@@ -2,18 +2,37 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <title>JOLY Editor</title>
 
+    <link rel="stylesheet" href="Styles/Html.css">
     <link rel="stylesheet" href="Styles/Interface.css">
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <!-- All of the Node.js APIs are available in this renderer process. -->
-    We are using Node.js <script>document.write(process.versions.node)</script>,
-    Chromium <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
 
+    <!-- Editor interface -->
+    <div id="flex-container-columns">
+
+      <div id="directory-list" class="window-column on-left-side"></div>
+
+     <!-- <div id="empty-space"></div> -->
+
+      <div id="property-list" class="window-column on-right-side"></div>
+
+    </div>
+
+    <!-- Editor interface -->
+    <div id="flex-container-rows">
+
+        <div id="property-editor" class="window-row"></div>
+        
+  
+      </div>
+
+    
+    
+    <!-- Main Babylon render canvas -->
     <canvas id="renderCanvas"></canvas>
+
 
     <script>
       // You can also require other files to run in this process
